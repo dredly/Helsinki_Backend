@@ -41,6 +41,11 @@ let persons = [
     }
 ]
 
+app.get('/', (request, response) => {
+	const genericMessage = '<p>This is a generic message</p>'
+	response.send(genericMessage)
+})
+
 app.get('/api/persons', (request, response) => {
 	response.json(persons)
 })

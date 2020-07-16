@@ -1,0 +1,1 @@
+mongodb+srv://dredly_Helsinki:<password>@cluster0.tqcff.mongodb.net/<dbname>?retryWrites=true&w=majority
